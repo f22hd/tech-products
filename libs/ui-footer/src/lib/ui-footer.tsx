@@ -27,11 +27,18 @@ export interface UiFooterProps {}
 export const UiFooter = (props: UiFooterProps) => {
   return (
     <div>
-      <ul>
-        {links.map((link, index) => {
+      <ul className="text-center mt-4">
+        {links.map(({ url, text }, index) => {
           return (
-            <li key={index}>
-              <a href={link.url}>{link.text}</a>
+            <li className="inline-block text-gray-700 px-2" key={index}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-secondary"
+                href={url}
+              >
+                {text}
+              </a>
             </li>
           );
         })}
