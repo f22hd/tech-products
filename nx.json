@@ -21,5 +21,16 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "generate-qrcode": {
+      "tags": []
+    },
+    "generate-qrcode-e2e": {
+      "tags": [],
+      "implicitDependencies": ["generate-qrcode"]
+    },
+    "ui-footer": {
+      "tags": []
+    }
+  }
 }

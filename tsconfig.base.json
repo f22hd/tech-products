@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@tech-products/ui-footer": ["libs/ui-footer/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
