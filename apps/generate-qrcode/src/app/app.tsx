@@ -17,11 +17,7 @@ export const App = () => {
       <UiFooter />
     </div>
   );
-  return (
-    <div>
-      <UiLayout content={content} />
-    </div>
-  );
+  return <UiLayout content={content} />;
 };
 
 export default App;

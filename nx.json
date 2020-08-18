@@ -41,6 +41,9 @@
     },
     "ui-layout": {
       "tags": []
+    },
+    "ui-intro": {
+      "tags": []
     }
   }
 }

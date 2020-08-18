@@ -17,7 +17,8 @@
     "baseUrl": ".",
     "paths": {
       "@tech-products/ui-footer": ["libs/ui-footer/src/index.ts"],
-      "@tech-products/ui-layout": ["libs/ui-layout/src/index.ts"]
+      "@tech-products/ui-layout": ["libs/ui-layout/src/index.ts"],
+      "@tech-products/ui-intro": ["libs/ui-intro/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

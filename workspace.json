@@ -268,6 +268,33 @@
           }
         }
       }
+    },
+    "ui-intro": {
+      "root": "libs/ui-intro",
+      "sourceRoot": "libs/ui-intro/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "tsConfig": [
+              "libs/ui-intro/tsconfig.lib.json",
+              "libs/ui-intro/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/ui-intro/**/*"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/ui-intro/jest.config.js",
+            "tsConfig": "libs/ui-intro/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {
