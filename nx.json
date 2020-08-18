@@ -38,6 +38,9 @@
     "iron-calculator-e2e": {
       "tags": [],
       "implicitDependencies": ["iron-calculator"]
+    },
+    "ui-layout": {
+      "tags": []
     }
   }
 }
