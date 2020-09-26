@@ -51,6 +51,13 @@
     "quick-whatsapp-e2e": {
       "tags": [],
       "implicitDependencies": ["quick-whatsapp"]
+    },
+    "convert-to-audio": {
+      "tags": []
+    },
+    "convert-to-audio-e2e": {
+      "tags": [],
+      "implicitDependencies": ["convert-to-audio"]
     }
   }
 }
