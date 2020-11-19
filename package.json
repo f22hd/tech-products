@@ -24,7 +24,8 @@
     "workspace-schematic": "nx workspace-schematic",
     "dep-graph": "nx dep-graph",
     "help": "nx help",
-    "create-app": "nx generate @nrwl/react:app "
+    "create-app": "nx generate @nrwl/react:app",
+    "start-stock": "nx serve --project=stock-calculator"
   },
   "private": true,
   "dependencies": {

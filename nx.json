@@ -58,6 +58,13 @@
     "convert-to-audio-e2e": {
       "tags": [],
       "implicitDependencies": ["convert-to-audio"]
+    },
+    "stock-calculator": {
+      "tags": []
+    },
+    "stock-calculator-e2e": {
+      "tags": [],
+      "implicitDependencies": ["stock-calculator"]
     }
   }
 }

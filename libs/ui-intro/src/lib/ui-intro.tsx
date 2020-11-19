@@ -8,7 +8,7 @@ export interface UiIntroProps {
 }
 
 export const UiIntro = ({ text }: UiIntroProps) => {
-  return <p className="my-5 text-gray-700 font-bold">{text}</p>;
+  return <p className="my-5 text-gray-700 text-center font-bold">{text}</p>;
 };
 
 export default UiIntro;
