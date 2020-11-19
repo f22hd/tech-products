@@ -8,6 +8,7 @@ export interface StockformProps {}
 export const Stockform = (props: StockformProps) => {
   return (
     <div className='bg-white p-5 my-5'>
+      {/* TO DO: Create the Form fields. */}
       <h1>Welcome to stockform!</h1>
     </div>
   );
